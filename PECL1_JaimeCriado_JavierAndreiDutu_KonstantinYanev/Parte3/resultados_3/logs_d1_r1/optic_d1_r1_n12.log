@@ -1,0 +1,110 @@
+Number of literals: 106
+Constructing lookup tables: [10%] [20%] [30%] [40%] [50%] [60%] [70%] [80%] [90%] [100%]
+Post filtering unreachable actions:  [10%] [20%] [30%] [40%] [50%] [60%] [70%] [80%] [90%] [100%]
+Seeing if metric is defined in terms of task vars or a minimal value of makespan
+- Yes it is
+Recognised a monotonic-change-induced limit on -1.000*<special>
+- Must be >=  the metric
+[01;31mLooking for achievers for goal index 0, fact (has-content person1 food) with fID 59[00m
+ (deliver drone1 crate1 person1 loc6 food) (deliver drone1 crate2 person1 loc6 food) (deliver drone1 crate3 person1 loc6 food) (deliver drone1 crate4 person1 loc6 food) (deliver drone1 crate5 person1 loc6 food) (deliver drone1 crate6 person1 loc6 food) (deliver drone1 crate7 person1 loc6 food)
+[01;34mFor limits: literal goal index 0, fact (has-content person1 food), could be achieved by operator (deliver drone1 crate1 person1 loc6 food), which has other interesting effects (including one on (person-free person1) )[00m
+[01;31mLooking for achievers for goal index 1, fact (has-content person2 food) with fID 64[00m
+ (deliver drone1 crate1 person2 loc9 food) (deliver drone1 crate2 person2 loc9 food) (deliver drone1 crate3 person2 loc9 food) (deliver drone1 crate4 person2 loc9 food) (deliver drone1 crate5 person2 loc9 food) (deliver drone1 crate6 person2 loc9 food) (deliver drone1 crate7 person2 loc9 food)
+[01;34mFor limits: literal goal index 1, fact (has-content person2 food), could be achieved by operator (deliver drone1 crate1 person2 loc9 food), which has other interesting effects (including one on (person-free person2) )[00m
+[01;31mLooking for achievers for goal index 2, fact (has-content person2 medicine) with fID 76[00m
+ (deliver drone1 crate10 person2 loc9 medicine) (deliver drone1 crate11 person2 loc9 medicine) (deliver drone1 crate12 person2 loc9 medicine) (deliver drone1 crate8 person2 loc9 medicine) (deliver drone1 crate9 person2 loc9 medicine)
+[01;34mFor limits: literal goal index 2, fact (has-content person2 medicine), could be achieved by operator (deliver drone1 crate10 person2 loc9 medicine), which has other interesting effects (including one on (person-free person2) )[00m
+[01;31mLooking for achievers for goal index 3, fact (has-content person4 food) with fID 55[00m
+ (deliver drone1 crate1 person4 loc2 food) (deliver drone1 crate2 person4 loc2 food) (deliver drone1 crate3 person4 loc2 food) (deliver drone1 crate4 person4 loc2 food) (deliver drone1 crate5 person4 loc2 food) (deliver drone1 crate6 person4 loc2 food) (deliver drone1 crate7 person4 loc2 food)
+[01;34mFor limits: literal goal index 3, fact (has-content person4 food), could be achieved by operator (deliver drone1 crate1 person4 loc2 food), which has other interesting effects (including one on (person-free person4) )[00m
+[01;31mLooking for achievers for goal index 4, fact (has-content person5 food) with fID 57[00m
+ (deliver drone1 crate1 person5 loc5 food) (deliver drone1 crate2 person5 loc5 food) (deliver drone1 crate3 person5 loc5 food) (deliver drone1 crate4 person5 loc5 food) (deliver drone1 crate5 person5 loc5 food) (deliver drone1 crate6 person5 loc5 food) (deliver drone1 crate7 person5 loc5 food)
+[01;34mFor limits: literal goal index 4, fact (has-content person5 food), could be achieved by operator (deliver drone1 crate1 person5 loc5 food), which has other interesting effects (including one on (person-free person5) )[00m
+[01;31mLooking for achievers for goal index 5, fact (has-content person6 food) with fID 65[00m
+ (deliver drone1 crate1 person6 loc9 food) (deliver drone1 crate2 person6 loc9 food) (deliver drone1 crate3 person6 loc9 food) (deliver drone1 crate4 person6 loc9 food) (deliver drone1 crate5 person6 loc9 food) (deliver drone1 crate6 person6 loc9 food) (deliver drone1 crate7 person6 loc9 food)
+[01;34mFor limits: literal goal index 5, fact (has-content person6 food), could be achieved by operator (deliver drone1 crate1 person6 loc9 food), which has other interesting effects (including one on (person-free person6) )[00m
+[01;31mLooking for achievers for goal index 6, fact (has-content person6 medicine) with fID 77[00m
+ (deliver drone1 crate10 person6 loc9 medicine) (deliver drone1 crate11 person6 loc9 medicine) (deliver drone1 crate12 person6 loc9 medicine) (deliver drone1 crate8 person6 loc9 medicine) (deliver drone1 crate9 person6 loc9 medicine)
+[01;34mFor limits: literal goal index 6, fact (has-content person6 medicine), could be achieved by operator (deliver drone1 crate10 person6 loc9 medicine), which has other interesting effects (including one on (person-free person6) )[00m
+[01;31mLooking for achievers for goal index 7, fact (has-content person8 food) with fID 54[00m
+ (deliver drone1 crate1 person8 loc12 food) (deliver drone1 crate2 person8 loc12 food) (deliver drone1 crate3 person8 loc12 food) (deliver drone1 crate4 person8 loc12 food) (deliver drone1 crate5 person8 loc12 food) (deliver drone1 crate6 person8 loc12 food) (deliver drone1 crate7 person8 loc12 food)
+[01;34mFor limits: literal goal index 7, fact (has-content person8 food), could be achieved by operator (deliver drone1 crate1 person8 loc12 food), which has other interesting effects (including one on (person-free person8) )[00m
+[01;31mLooking for achievers for goal index 8, fact (has-content person8 medicine) with fID 66[00m
+ (deliver drone1 crate10 person8 loc12 medicine) (deliver drone1 crate11 person8 loc12 medicine) (deliver drone1 crate12 person8 loc12 medicine) (deliver drone1 crate8 person8 loc12 medicine) (deliver drone1 crate9 person8 loc12 medicine)
+[01;34mFor limits: literal goal index 8, fact (has-content person8 medicine), could be achieved by operator (deliver drone1 crate10 person8 loc12 medicine), which has other interesting effects (including one on (person-free person8) )[00m
+[01;31mLooking for achievers for goal index 9, fact (has-content person9 medicine) with fID 68[00m
+ (deliver drone1 crate10 person9 loc2 medicine) (deliver drone1 crate11 person9 loc2 medicine) (deliver drone1 crate12 person9 loc2 medicine) (deliver drone1 crate8 person9 loc2 medicine) (deliver drone1 crate9 person9 loc2 medicine)
+[01;34mFor limits: literal goal index 9, fact (has-content person9 medicine), could be achieved by operator (deliver drone1 crate10 person9 loc2 medicine), which has other interesting effects (including one on (person-free person9) )[00m
+[01;31mLooking for achievers for goal index 10, fact (has-content person11 medicine) with fID 72[00m
+ (deliver drone1 crate10 person11 loc6 medicine) (deliver drone1 crate11 person11 loc6 medicine) (deliver drone1 crate12 person11 loc6 medicine) (deliver drone1 crate8 person11 loc6 medicine) (deliver drone1 crate9 person11 loc6 medicine)
+[01;34mFor limits: literal goal index 10, fact (has-content person11 medicine), could be achieved by operator (deliver drone1 crate10 person11 loc6 medicine), which has other interesting effects (including one on (person-free person11) )[00m
+[01;31mLooking for achievers for goal index 11, fact (has-content person12 food) with fID 63[00m
+ (deliver drone1 crate1 person12 loc9 food) (deliver drone1 crate2 person12 loc9 food) (deliver drone1 crate3 person12 loc9 food) (deliver drone1 crate4 person12 loc9 food) (deliver drone1 crate5 person12 loc9 food) (deliver drone1 crate6 person12 loc9 food) (deliver drone1 crate7 person12 loc9 food)
+[01;34mFor limits: literal goal index 11, fact (has-content person12 food), could be achieved by operator (deliver drone1 crate1 person12 loc9 food), which has other interesting effects (including one on (person-free person12) )[00m
+20% of the ground temporal actions in this problem are compression-safe
+Initial heuristic = 31.000, admissible cost estimate 201.002
+b (30.000 | 165.001)b (29.000 | 170.002)b (28.000 | 496.005)b (27.000 | 501.006)b (26.000 | 821.008)b (25.000 | 826.009)b (24.000 | 924.010)b (23.000 | 1193.014)b (22.000 | 1198.014)b (21.000 | 1431.017)b (20.000 | 1436.018)b (19.000 | 1478.019)b (17.000 | 1752.023)b (16.000 | 1940.024)b (14.000 | 2307.029)b (13.000 | 2361.030)b (11.000 | 2763.034)b (9.000 | 3165.038)b (8.000 | 3165.038)b (7.000 | 3366.040)b (6.000 | 3562.041)b (5.000 | 3567.042)b (4.000 | 3964.045)b (3.000 | 3969.046)b (2.000 | 4366.049)b (1.000 | 4371.050)(G)
+; LP calculated the cost
+
+; Plan found with metric 4371.050
+; Theoretical reachable cost 4371.051
+; States evaluated so far: 146
+; States pruned based on pre-heuristic cost lower bound: 0
+; Time 0.62
+0.000: (pick-up drone1 crate10 depot)  [5.000]
+5.001: (fly drone1 depot loc12)  [160.000]
+165.002: (deliver drone1 crate10 person8 loc12 medicine)  [5.000]
+170.003: (fly drone1 loc12 depot)  [160.000]
+330.004: (pick-up drone1 crate1 depot)  [5.000]
+335.005: (fly drone1 depot loc6)  [161.000]
+496.006: (deliver drone1 crate1 person1 loc6 food)  [5.000]
+501.007: (fly drone1 loc6 depot)  [161.000]
+662.008: (pick-up drone1 crate2 depot)  [5.000]
+667.009: (fly drone1 depot loc5)  [154.000]
+821.010: (deliver drone1 crate2 person5 loc5 food)  [5.000]
+826.011: (fly drone1 loc5 loc9)  [98.000]
+924.012: (fly drone1 loc9 depot)  [196.000]
+1120.013: (pick-up drone1 crate3 depot)  [5.000]
+1125.014: (fly drone1 depot loc2)  [68.000]
+1193.015: (deliver drone1 crate3 person4 loc2 food)  [5.000]
+1198.016: (fly drone1 loc2 depot)  [68.000]
+1266.017: (pick-up drone1 crate4 depot)  [5.000]
+1271.018: (fly drone1 depot loc12)  [160.000]
+1431.019: (deliver drone1 crate4 person8 loc12 food)  [5.000]
+1436.020: (fly drone1 loc12 loc9)  [42.000]
+1478.021: (fly drone1 loc9 depot)  [196.000]
+1674.022: (pick-up drone1 crate11 depot)  [5.000]
+1679.023: (fly drone1 depot loc2)  [68.000]
+1747.024: (deliver drone1 crate11 person9 loc2 medicine)  [5.000]
+1752.025: (fly drone1 loc2 loc9)  [188.000]
+1940.026: (fly drone1 loc9 depot)  [196.000]
+2136.027: (pick-up drone1 crate12 depot)  [5.000]
+2141.028: (fly drone1 depot loc6)  [161.000]
+2302.029: (deliver drone1 crate12 person11 loc6 medicine)  [5.000]
+2307.030: (fly drone1 loc6 loc9)  [54.000]
+2361.031: (fly drone1 loc9 depot)  [196.000]
+2557.032: (pick-up drone1 crate8 depot)  [5.000]
+2562.033: (fly drone1 depot loc9)  [196.000]
+2758.034: (deliver drone1 crate8 person6 loc9 medicine)  [5.000]
+2763.035: (fly drone1 loc9 depot)  [196.000]
+2959.036: (pick-up drone1 crate9 depot)  [5.000]
+2964.037: (fly drone1 depot loc9)  [196.000]
+3160.038: (deliver drone1 crate9 person2 loc9 medicine)  [5.000]
+3165.039: (fly drone1 loc9 depot)  [196.000]
+3361.040: (pick-up drone1 crate5 depot)  [5.000]
+3366.041: (fly drone1 depot loc9)  [196.000]
+3562.042: (deliver drone1 crate5 person6 loc9 food)  [5.000]
+3567.043: (fly drone1 loc9 depot)  [196.000]
+3763.044: (pick-up drone1 crate6 depot)  [5.000]
+3768.045: (fly drone1 depot loc9)  [196.000]
+3964.046: (deliver drone1 crate6 person2 loc9 food)  [5.000]
+3969.047: (fly drone1 loc9 depot)  [196.000]
+4165.048: (pick-up drone1 crate7 depot)  [5.000]
+4170.049: (fly drone1 depot loc9)  [196.000]
+4366.050: (deliver drone1 crate7 person12 loc9 food)  [5.000]
+
+ * All goal deadlines now no later than 4371.050
+
+Resorting to best-first search
+Running WA* with W = 5.000, not restarting with goal states
+b (30.000 | 325.002)b (29.000 | 491.004)b (28.000 | 657.006)b (27.000 | 816.007)b (26.000 | 914.008)b (26.000 | 862.008)b (25.000 | 975.009)b (24.000 | 1048.012)b (23.000 | 1305.014)b (22.000 | 1378.015)b (21.000 | 1611.018)b (20.000 | 1616.019)b (19.000 | 1658.020)b (19.000 | 1635.020)b (17.000 | 1982.023)b (15.000 | 2384.028)

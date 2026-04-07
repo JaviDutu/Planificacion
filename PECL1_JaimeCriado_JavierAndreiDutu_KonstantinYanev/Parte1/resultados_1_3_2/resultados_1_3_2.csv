@@ -1,0 +1,9 @@
+busqueda,heuristica,n,problema,resuelto,tiempo_segundos,longitud_plan,motivo
+GBFS,hMAX,8,problem_d1_r0_l8_p8_c8_g8.pddl,si,2.1,29,ok
+GBFS,hADD,8,problem_d1_r0_l8_p8_c8_g8.pddl,si,0.089,30,ok
+GBFS,hFF,8,problem_d1_r0_l8_p8_c8_g8.pddl,si,0.15,29,ok
+GBFS,Landmark,8,problem_d1_r0_l8_p8_c8_g8.pddl,si,0.0047,31,ok
+EHC,hMAX,8,problem_d1_r0_l8_p8_c8_g8.pddl,no,,,timeout
+EHC,hADD,8,problem_d1_r0_l8_p8_c8_g8.pddl,si,0.38,34,ok
+EHC,hFF,8,problem_d1_r0_l8_p8_c8_g8.pddl,si,0.48,32,ok
+EHC,Landmark,8,problem_d1_r0_l8_p8_c8_g8.pddl,si,0.014,36,ok

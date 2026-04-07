@@ -1,0 +1,6 @@
+(pick-up d1 right c2 depot)
+(pick-up d1 left c3 depot)
+(fly d1 depot loc2)
+(deliver d1 right c2 p2 loc2 medicine)
+(fly d1 loc2 loc1)
+(deliver d1 left c3 p1 loc1 food)

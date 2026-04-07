@@ -1,0 +1,6 @@
+drones,transportadores,max_n_sin_timeout,problema_max_sin_timeout,max_n_con_alguna_solucion,problema_max_con_alguna_solucion,timeout_o_fallo_en_n,motivo_ultimo_intento
+1,1,,,40,problem_d1_r1_l40_p40_c40_g40.pddl,41,timeout_sin_solucion
+2,2,,,17,problem_d2_r2_l17_p17_c17_g17.pddl,18,timeout_sin_solucion
+3,3,,,9,problem_d3_r3_l9_p9_c9_g9.pddl,10,timeout_sin_solucion
+4,4,,,6,problem_d4_r4_l6_p6_c6_g6.pddl,7,timeout_sin_solucion
+5,5,,,3,problem_d5_r5_l3_p3_c3_g3.pddl,4,timeout_sin_solucion

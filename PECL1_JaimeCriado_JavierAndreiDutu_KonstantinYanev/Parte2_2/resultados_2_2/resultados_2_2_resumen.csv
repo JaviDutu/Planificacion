@@ -1,0 +1,8 @@
+planificador,tipo,max_n_resuelto,problema_maximo,tiempo_total_s,tiempo_busqueda_s,coste_plan,longitud_plan,resultado
+metric-ff,satisficing,10,problem_d1_r1_l10_p10_c10_g10.pddl,0.00,,2081.000000,41,ok
+lama-first,satisficing,97,problem_d1_r1_l97_p97_c97_g97.pddl,38.203774,35.812064,33638,414,ok
+seq-sat-fdss-2,satisficing,6,problem_d1_r1_l6_p6_c6_g6.pddl,0.003647,0.000000,1677,23,ok
+seq-sat-fd-autotune-2,satisficing,5,problem_d1_r1_l5_p5_c5_g5.pddl,17.468996,0.003174,1769,23,ok
+seq-opt-lmcut,optimo,6,problem_d1_r1_l6_p6_c6_g6.pddl,29.323677,29.319076,610,29,ok
+seq-opt-bjolp,optimo,7,problem_d1_r1_l7_p7_c7_g7.pddl,7.399927,7.393503,524,33,ok
+seq-opt-fdss-2,optimo,7,problem_d1_r1_l7_p7_c7_g7.pddl,3.791659,0.179998,524,33,ok

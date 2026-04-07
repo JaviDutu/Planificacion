@@ -1,0 +1,220 @@
+(define (problem problem_d1_r1_l10_p10_c10_g10)
+(:domain emergency-services-transporters)
+(:objects
+	drone1 - drone
+	depot - location
+	loc1 - location
+	loc2 - location
+	loc3 - location
+	loc4 - location
+	loc5 - location
+	loc6 - location
+	loc7 - location
+	loc8 - location
+	loc9 - location
+	loc10 - location
+	crate1 - crate
+	crate2 - crate
+	crate3 - crate
+	crate4 - crate
+	crate5 - crate
+	crate6 - crate
+	crate7 - crate
+	crate8 - crate
+	crate9 - crate
+	crate10 - crate
+	food - content
+	medicine - content
+	person1 - person
+	person2 - person
+	person3 - person
+	person4 - person
+	person5 - person
+	person6 - person
+	person7 - person
+	person8 - person
+	person9 - person
+	person10 - person
+	transporter1 - transporter
+	n0 - num
+	n1 - num
+	n2 - num
+	n3 - num
+	n4 - num
+)
+(:init
+	(at-drone drone1 depot)
+	(hand-empty drone1)
+	(at-transporter transporter1 depot)
+	(free-slots transporter1 n4)
+	(at-crate crate1 depot)
+	(at-crate crate2 depot)
+	(at-crate crate3 depot)
+	(at-crate crate4 depot)
+	(at-crate crate5 depot)
+	(at-crate crate6 depot)
+	(at-crate crate7 depot)
+	(at-crate crate8 depot)
+	(at-crate crate9 depot)
+	(at-crate crate10 depot)
+	(at-person person1 loc2)
+	(at-person person2 loc3)
+	(at-person person3 loc7)
+	(at-person person4 loc5)
+	(at-person person5 loc5)
+	(at-person person6 loc8)
+	(at-person person7 loc2)
+	(at-person person8 loc10)
+	(at-person person9 loc3)
+	(at-person person10 loc8)
+	(crate-content crate1 food)
+	(crate-content crate2 food)
+	(crate-content crate3 medicine)
+	(crate-content crate4 medicine)
+	(crate-content crate5 medicine)
+	(crate-content crate6 medicine)
+	(crate-content crate7 medicine)
+	(crate-content crate8 medicine)
+	(crate-content crate9 medicine)
+	(crate-content crate10 medicine)
+	(siguiente n0 n1)
+	(siguiente n1 n2)
+	(siguiente n2 n3)
+	(siguiente n3 n4)
+	(= (total-cost) 0)
+	(= (fly-cost depot depot) 1)
+	(= (fly-cost depot loc1) 183)
+	(= (fly-cost depot loc2) 128)
+	(= (fly-cost depot loc3) 175)
+	(= (fly-cost depot loc4) 169)
+	(= (fly-cost depot loc5) 70)
+	(= (fly-cost depot loc6) 180)
+	(= (fly-cost depot loc7) 15)
+	(= (fly-cost depot loc8) 124)
+	(= (fly-cost depot loc9) 93)
+	(= (fly-cost depot loc10) 138)
+	(= (fly-cost loc1 depot) 183)
+	(= (fly-cost loc1 loc1) 1)
+	(= (fly-cost loc1 loc2) 102)
+	(= (fly-cost loc1 loc3) 132)
+	(= (fly-cost loc1 loc4) 162)
+	(= (fly-cost loc1 loc5) 118)
+	(= (fly-cost loc1 loc6) 34)
+	(= (fly-cost loc1 loc7) 173)
+	(= (fly-cost loc1 loc8) 113)
+	(= (fly-cost loc1 loc9) 105)
+	(= (fly-cost loc1 loc10) 96)
+	(= (fly-cost loc2 depot) 128)
+	(= (fly-cost loc2 loc1) 102)
+	(= (fly-cost loc2 loc2) 1)
+	(= (fly-cost loc2 loc3) 189)
+	(= (fly-cost loc2 loc4) 206)
+	(= (fly-cost loc2 loc5) 64)
+	(= (fly-cost loc2 loc6) 78)
+	(= (fly-cost loc2 loc7) 125)
+	(= (fly-cost loc2 loc8) 144)
+	(= (fly-cost loc2 loc9) 39)
+	(= (fly-cost loc2 loc10) 12)
+	(= (fly-cost loc3 depot) 175)
+	(= (fly-cost loc3 loc1) 132)
+	(= (fly-cost loc3 loc2) 189)
+	(= (fly-cost loc3 loc3) 1)
+	(= (fly-cost loc3 loc4) 36)
+	(= (fly-cost loc3 loc5) 151)
+	(= (fly-cost loc3 loc6) 160)
+	(= (fly-cost loc3 loc7) 160)
+	(= (fly-cost loc3 loc8) 54)
+	(= (fly-cost loc3 loc9) 162)
+	(= (fly-cost loc3 loc10) 190)
+	(= (fly-cost loc4 depot) 169)
+	(= (fly-cost loc4 loc1) 162)
+	(= (fly-cost loc4 loc2) 206)
+	(= (fly-cost loc4 loc3) 36)
+	(= (fly-cost loc4 loc4) 1)
+	(= (fly-cost loc4 loc5) 160)
+	(= (fly-cost loc4 loc6) 188)
+	(= (fly-cost loc4 loc7) 155)
+	(= (fly-cost loc4 loc8) 63)
+	(= (fly-cost loc4 loc9) 175)
+	(= (fly-cost loc4 loc10) 208)
+	(= (fly-cost loc5 depot) 70)
+	(= (fly-cost loc5 loc1) 118)
+	(= (fly-cost loc5 loc2) 64)
+	(= (fly-cost loc5 loc3) 151)
+	(= (fly-cost loc5 loc4) 160)
+	(= (fly-cost loc5 loc5) 1)
+	(= (fly-cost loc5 loc6) 111)
+	(= (fly-cost loc5 loc7) 64)
+	(= (fly-cost loc5 loc8) 99)
+	(= (fly-cost loc5 loc9) 26)
+	(= (fly-cost loc5 loc10) 73)
+	(= (fly-cost loc6 depot) 180)
+	(= (fly-cost loc6 loc1) 34)
+	(= (fly-cost loc6 loc2) 78)
+	(= (fly-cost loc6 loc3) 160)
+	(= (fly-cost loc6 loc4) 188)
+	(= (fly-cost loc6 loc5) 111)
+	(= (fly-cost loc6 loc6) 1)
+	(= (fly-cost loc6 loc7) 172)
+	(= (fly-cost loc6 loc8) 133)
+	(= (fly-cost loc6 loc9) 92)
+	(= (fly-cost loc6 loc10) 69)
+	(= (fly-cost loc7 depot) 15)
+	(= (fly-cost loc7 loc1) 173)
+	(= (fly-cost loc7 loc2) 125)
+	(= (fly-cost loc7 loc3) 160)
+	(= (fly-cost loc7 loc4) 155)
+	(= (fly-cost loc7 loc5) 64)
+	(= (fly-cost loc7 loc6) 172)
+	(= (fly-cost loc7 loc7) 1)
+	(= (fly-cost loc7 loc8) 110)
+	(= (fly-cost loc7 loc9) 89)
+	(= (fly-cost loc7 loc10) 135)
+	(= (fly-cost loc8 depot) 124)
+	(= (fly-cost loc8 loc1) 113)
+	(= (fly-cost loc8 loc2) 144)
+	(= (fly-cost loc8 loc3) 54)
+	(= (fly-cost loc8 loc4) 63)
+	(= (fly-cost loc8 loc5) 99)
+	(= (fly-cost loc8 loc6) 133)
+	(= (fly-cost loc8 loc7) 110)
+	(= (fly-cost loc8 loc8) 1)
+	(= (fly-cost loc8 loc9) 113)
+	(= (fly-cost loc8 loc10) 146)
+	(= (fly-cost loc9 depot) 93)
+	(= (fly-cost loc9 loc1) 105)
+	(= (fly-cost loc9 loc2) 39)
+	(= (fly-cost loc9 loc3) 162)
+	(= (fly-cost loc9 loc4) 175)
+	(= (fly-cost loc9 loc5) 26)
+	(= (fly-cost loc9 loc6) 92)
+	(= (fly-cost loc9 loc7) 89)
+	(= (fly-cost loc9 loc8) 113)
+	(= (fly-cost loc9 loc9) 1)
+	(= (fly-cost loc9 loc10) 47)
+	(= (fly-cost loc10 depot) 138)
+	(= (fly-cost loc10 loc1) 96)
+	(= (fly-cost loc10 loc2) 12)
+	(= (fly-cost loc10 loc3) 190)
+	(= (fly-cost loc10 loc4) 208)
+	(= (fly-cost loc10 loc5) 73)
+	(= (fly-cost loc10 loc6) 69)
+	(= (fly-cost loc10 loc7) 135)
+	(= (fly-cost loc10 loc8) 146)
+	(= (fly-cost loc10 loc9) 47)
+	(= (fly-cost loc10 loc10) 1)
+)
+(:goal (and
+	(has-content person1 medicine)
+	(has-content person2 medicine)
+	(has-content person3 food)
+	(has-content person4 food)
+	(has-content person4 medicine)
+	(has-content person5 medicine)
+	(has-content person7 medicine)
+	(has-content person8 medicine)
+	(has-content person9 medicine)
+	(has-content person10 medicine)
+	))
+(:metric minimize (total-cost))
+)

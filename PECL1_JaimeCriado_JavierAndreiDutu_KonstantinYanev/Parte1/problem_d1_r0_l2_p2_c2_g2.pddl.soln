@@ -1,0 +1,5 @@
+(pick-up drone1 left crate2 depot)
+(pick-up drone1 right crate1 depot)
+(fly drone1 depot loc2)
+(deliver drone1 left crate2 person2 loc2 medicine)
+(deliver drone1 right crate1 person1 loc2 food)

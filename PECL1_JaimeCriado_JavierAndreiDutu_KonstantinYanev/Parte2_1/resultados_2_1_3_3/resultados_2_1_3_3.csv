@@ -1,0 +1,5 @@
+algoritmo,problema,resuelto,tiempo_segundos,longitud_plan,optimo,motivo
+BFS,problem_d1_r1_l6_p6_c6_g6.pddl,si,3.9,23,si,ok
+IDS,problem_d1_r1_l6_p6_c6_g6.pddl,no,,,si,timeout
+A*_hMAX,problem_d1_r1_l6_p6_c6_g6.pddl,no,,,si,timeout
+A*_LMCUT,problem_d1_r1_l6_p6_c6_g6.pddl,no,,,si,timeout

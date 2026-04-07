@@ -1,0 +1,35 @@
+Number of literals: 44
+Constructing lookup tables: [10%] [20%] [30%] [40%] [50%] [60%] [70%] [80%] [90%] [100%]
+Post filtering unreachable actions:  [10%] [20%] [30%] [40%] [50%] [60%] [70%] [80%] [90%] [100%]
+Seeing if metric is defined in terms of task vars or a minimal value of makespan
+- Yes it is
+Recognised a monotonic-change-induced limit on -1.000*<special>
+- Must be >=  the metric
+[01;31mLooking for achievers for goal index 0, fact (has-content person2 food) with fID 25[00m
+ (deliver drone1 crate1 person2 loc2 food) (deliver drone2 crate1 person2 loc2 food)
+[01;34mFor limits: literal goal index 0, fact (has-content person2 food), could be achieved by operator (deliver drone1 crate1 person2 loc2 food), which has other interesting effects (including one on (person-free person2) )[00m
+[01;31mLooking for achievers for goal index 1, fact (has-content person2 medicine) with fID 27[00m
+ (deliver drone1 crate2 person2 loc2 medicine) (deliver drone2 crate2 person2 loc2 medicine)
+[01;34mFor limits: literal goal index 1, fact (has-content person2 medicine), could be achieved by operator (deliver drone1 crate2 person2 loc2 medicine), which has other interesting effects (including one on (person-free person2) )[00m
+22% of the ground temporal actions in this problem are compression-safe
+Initial heuristic = 7.000, admissible cost estimate 73.002
+b (5.000 | 73.001)b (4.000 | 73.001)b (3.000 | 78.002)b (2.000 | 78.002)b (1.000 | 83.003)(G)
+; LP calculated the cost
+
+; Plan found with metric 83.003
+; Theoretical reachable cost 83.004
+; States evaluated so far: 21
+; States pruned based on pre-heuristic cost lower bound: 0
+; Time 0.06
+0.000: (pick-up drone1 crate2 depot)  [5.000]
+0.000: (pick-up drone2 crate1 depot)  [5.000]
+5.001: (fly drone1 depot loc2)  [68.000]
+5.001: (fly drone2 depot loc2)  [68.000]
+73.002: (deliver drone1 crate2 person2 loc2 medicine)  [5.000]
+78.003: (deliver drone2 crate1 person2 loc2 food)  [5.000]
+
+ * All goal deadlines now no later than 83.003
+
+Resorting to best-first search
+Running WA* with W = 5.000, not restarting with goal states
+b (6.000 | 73.001)b (5.000 | 73.001)b (4.000 | 73.001)
